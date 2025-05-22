@@ -11,7 +11,7 @@
 
 const int EMBED_DIM = 32;
 const int HIDDEN_DIM = 64;
-const int EPOCHS = 1;       // Increased epochs for better training
+const int EPOCHS = 100;       // Increased epochs for better training
 const int BATCH_SIZE = 8;    // Batch size for mini-batch gradient descent
 const float LEARNING_RATE = 0.05f;
 
