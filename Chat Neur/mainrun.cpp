@@ -11,7 +11,7 @@
 
 const int EMBED_DIM = 32;
 const int HIDDEN_DIM = 64;
-const int EPOCHS = 1'000;       // TRAINING MODE = INFINTY
+const int EPOCHS = 1;       // TRAINING MODE = INFINTY
 const int BATCH_SIZE = 8;    
 const float LEARNING_RATE = 0.05f;
 

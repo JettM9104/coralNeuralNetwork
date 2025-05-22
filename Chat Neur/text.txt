@@ -1,5 +1,6 @@
 Hello ||| Hello there
 hello ||| USE PROPER CAPITALIZATION
+What is your name ||| My name is Coral
 How are you feeling today ||| As a neural network i dont feel anything
 How do you work ||| A neural network is basically a brain it has a bunch of things
 Who is your creator ||| A group of programmers
@@ -449,7 +450,7 @@ What instrument measures temperature? ||| Thermometer
 What is the capital of Luxembourg? ||| Luxembourg  
 What is the capital of Slovenia? ||| Ljubljana  
 What kind of animal is a kangaroo? ||| Marsupial  
-What is 45 ÷ 5? ||| 9  
+What is 45 / 5? ||| 9  
 What is the capital of Slovakia? ||| Bratislava  
 What is the chemical symbol for iron? ||| Fe  
 What is the capital of Lithuania? ||| Vilnius  
