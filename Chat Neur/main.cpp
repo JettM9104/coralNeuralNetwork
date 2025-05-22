@@ -11,7 +11,7 @@
 
 const int EMBED_DIM = 32;
 const int HIDDEN_DIM = 64;
-const int EPOCHS = 1'000;       // TRAINING MODE = INFINTY
+const int EPOCHS = INFINITY;       // TRAINING MODE = INFINTY
 const int BATCH_SIZE = 8;    
 const float LEARNING_RATE = 0.05f;
 
@@ -233,7 +233,7 @@ int main() {
                 update_weights_batch(W1, W2, W3, batch_x, batch_y, vocab_size);
             }
         }
-        if (epoch % 50 == 0) {
+        if (epoch % 15 == 0) {
             save_matrix("W1.txt", W1);
             save_matrix("W2.txt", W2);
             save_matrix("W3.txt", W3);
