@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jettmu/Documents/VSCode/Neural Network/Chat Neur/appendeos'
+relocations:     []
+...
