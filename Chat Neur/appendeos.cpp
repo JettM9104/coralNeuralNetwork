@@ -6,7 +6,7 @@
 int main() {
     std::string enter;
 
-    std::cout << "To confirm, please type <eos";
+    std::cout << "To confirm, please type <EOS>: ";
     std::cin >> enter;
 
     if (enter != "<EOS>") {
