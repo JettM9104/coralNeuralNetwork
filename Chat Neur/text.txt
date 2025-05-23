@@ -1,484 +1,484 @@
-Hello ||| Hello there<eos>
-hello ||| USE PROPER CAPITALIZATION<eos>
-What is your name ||| My name is Coral<eos>
-How are you feeling today ||| As a neural network i dont feel anything<eos>
-How do you work ||| A neural network is basically a brain it has a bunch of things<eos>
-Who is your creator ||| A group of programmers<eos>
-What is the capital of France? ||| Paris  <eos>
-Who wrote "Romeo and Juliet"? ||| William Shakespeare  <eos>
-What is the largest planet in the solar system? ||| Jupiter  <eos>
-What is the square root of 81? ||| 9  <eos>
-What language is primarily spoken in Brazil? ||| Portuguese  <eos>
-Who discovered gravity? ||| Isaac Newton  <eos>
-What is the chemical symbol for water? ||| H2O  <eos>
-How many continents are there? ||| 7  <eos>
-What is the smallest prime number? ||| 2  <eos>
-Who painted the Mona Lisa? ||| Leonardo da Vinci  <eos>
-What is the capital of Japan? ||| Tokyo  <eos>
-What gas do plants absorb from the atmosphere? ||| Carbon dioxide  <eos>
-Who was the first president of the United States? ||| George Washington  <eos>
-What is 5 x 6? ||| 30  <eos>
-What is the boiling point of water in Celsius? ||| 100  <eos>
-What year did World War II end? ||| 1945  <eos>
-What is the main language spoken in Canada? ||| English and French  <eos>
-What planet is known as the Red Planet? ||| Mars  <eos>
-What is the chemical symbol for gold? ||| Au  <eos>
-What is the largest mammal on Earth? ||| Blue whale  <eos>
-What is the longest river in the world? ||| Nile  <eos>
-Who developed the theory of relativity? ||| Albert Einstein  <eos>
-What is the capital of Italy? ||| Rome  <eos>
-What is 12 squared? ||| 144  <eos>
-What organ pumps blood through the body? ||| Heart  <eos>
-What is the currency of Japan? ||| Yen  <eos>
-What country has the most people? ||| China  <eos>
-What do bees collect from flowers? ||| Nectar  <eos>
-How many legs does a spider have? ||| 8  <eos>
-Who was the first man to walk on the Moon? ||| Neil Armstrong  <eos>
-What is the capital of Canada? ||| Ottawa  <eos>
-What is the freezing point of water in Fahrenheit? ||| 32  <eos>
-What is the main ingredient in guacamole? ||| Avocado  <eos>
-Which planet is closest to the Sun? ||| Mercury  <eos>
-What is the tallest mountain in the world? ||| Mount Everest  <eos>
-What is the capital of Germany? ||| Berlin  <eos>
-What is the chemical symbol for oxygen? ||| O  <eos>
-What is the primary source of energy for the Earth? ||| The Sun  <eos>
-What is 15 divided by 3? ||| 5  <eos>
-How many colors are there in a rainbow? ||| 7  <eos>
-What is the largest ocean on Earth? ||| Pacific Ocean  <eos>
-What is the name of the galaxy we live in? ||| Milky Way  <eos>
-What is the capital of Australia? ||| Canberra  <eos>
-Who invented the light bulb? ||| Thomas Edison  <eos>
-What element does "Na" represent on the periodic table? ||| Sodium  <eos>
-What is the capital of the United Kingdom? ||| London  <eos>
-What is the process by which plants make food? ||| Photosynthesis  <eos>
-What is the square root of 49? ||| 7  <eos>
-What is the smallest country in the world? ||| Vatican City  <eos>
-What organ is responsible for breathing? ||| Lungs  <eos>
-What is the most spoken language in the world? ||| English  <eos>
-What is 100 - 37? ||| 63  <eos>
-What is the capital of Russia? ||| Moscow  <eos>
-How many sides does a triangle have? ||| 3  <eos>
-Who painted The Starry Night? ||| Vincent van Gogh  <eos>
-What is the capital of India? ||| New Delhi  <eos>
-What is the name of the ship that sank in 1912? ||| Titanic  <eos>
-What is the main ingredient in bread? ||| Flour  <eos>
-What does DNA stand for? ||| Deoxyribonucleic Acid  <eos>
-How many hours are there in a day? ||| 24  <eos>
-What is the capital of Spain? ||| Madrid  <eos>
-How many bones are in the human body? ||| 206  <eos>
-What is the main gas in the air we breathe? ||| Nitrogen  <eos>
-What does a thermometer measure? ||| Temperature  <eos>
-How many days are in a leap year? ||| 366  <eos>
-What is the capital of China? ||| Beijing  <eos>
-What color do you get when you mix red and blue? ||| Purple  <eos>
-What is 9 + 10? ||| 19  <eos>
-What country is known for the Eiffel Tower? ||| France  <eos>
-What animal is known as the King of the Jungle? ||| Lion  <eos>
-How many teeth does an adult human have? ||| 32  <eos>
-What is the capital of South Korea? ||| Seoul  <eos>
-What gas do humans breathe out? ||| Carbon dioxide  <eos>
-What is the capital of Egypt? ||| Cairo  <eos>
-Who invented the telephone? ||| Alexander Graham Bell  <eos>
-What is 7 x 8? ||| 56  <eos>
-How many minutes are in an hour? ||| 60  <eos>
-What is the capital of Mexico? ||| Mexico City  <eos>
-What is the name of the force that pulls objects toward Earth? ||| Gravity  <eos>
-What is the capital of Argentina? ||| Buenos Aires  <eos>
-How many players are on a soccer team? ||| 11  <eos>
-What is the chemical symbol for iron? ||| Fe  <eos>
-What is the name of the fairy in Peter Pan? ||| Tinker Bell  <eos>
-What do you call animals that eat only plants? ||| Herbivores  <eos>
-How many fingers do humans have? ||| 10  <eos>
-What is the name of our moon? ||| The Moon  <eos>
-How many planets are in the solar system? ||| 8  <eos>
-What animal is known for its black and white stripes? ||| Zebra  <eos>
-What planet has rings? ||| Saturn  <eos>
-What do caterpillars turn into? ||| Butterflies  <eos>
-What is 4 x 9? ||| 36  <eos>
-What do you call a baby cat? ||| Kitten  <eos>
-What is the main language spoken in Italy? ||| Italian  <eos>
-What shape has four equal sides? ||| Square  <eos>
-What is the capital of the United States? ||| Washington, D.C.  <eos>
-What animal is known for building dams? ||| Beaver  <eos>
-What is 1000 divided by 10? ||| 100  <eos>
-What is the currency of the United Kingdom? ||| Pound Sterling  <eos>
-How many letters are in the English alphabet? ||| 26  <eos>
-What is the capital of South Africa? ||| Pretoria  <eos>
-Who was the first woman to fly solo across the Atlantic? ||| Amelia Earhart  <eos>
-What is the hardest natural substance on Earth? ||| Diamond  <eos>
-What is the speed of light in a vacuum (km/s)? ||| 299,792  <eos>
-What instrument measures atmospheric pressure? ||| Barometer  <eos>
-What does HTML stand for? ||| HyperText Markup Language  <eos>
-Who wrote "1984"? ||| George Orwell  <eos>
-What is the main ingredient in sushi? ||| Rice  <eos>
-How many vowels are in the English alphabet? ||| 5  <eos>
-What is the largest desert in the world? ||| Antarctic Desert  <eos>
-What is the capital of Thailand? ||| Bangkok  <eos>
-What is the name of the Greek god of the sea? ||| Poseidon  <eos>
-What is the tallest building in the world? ||| Burj Khalifa  <eos>
-What part of the plant conducts photosynthesis? ||| Leaf  <eos>
-What is the currency used in the United States? ||| Dollar  <eos>
-How many strings does a violin have? ||| 4  <eos>
-What planet is known for its big red spot? ||| Jupiter  <eos>
-What is 64 divided by 8? ||| 8  <eos>
-What color is chlorophyll? ||| Green  <eos>
-What is the capital of Greece? ||| Athens  <eos>
-What is the powerhouse of the cell? ||| Mitochondria  <eos>
-What does CPU stand for? ||| Central Processing Unit  <eos>
-What is the primary language spoken in Germany? ||| German  <eos>
-What part of the body controls thoughts? ||| Brain  <eos>
-Who invented the airplane? ||| Wright brothers  <eos>
-What is 10 squared? ||| 100  <eos>
-What is the process of water turning into vapor called? ||| Evaporation  <eos>
-What is the capital of Turkey? ||| Ankara  <eos>
-What instrument has 88 keys? ||| Piano  <eos>
-What planet is furthest from the Sun? ||| Neptune  <eos>
-How many centimeters are in a meter? ||| 100  <eos>
-What is the capital of Norway? ||| Oslo  <eos>
-Who wrote "The Hobbit"? ||| J.R.R. Tolkien  <eos>
-What is a group of lions called? ||| Pride  <eos>
-What does "www" stand for? ||| World Wide Web  <eos>
-Which element has the atomic number 1? ||| Hydrogen  <eos>
-What is the symbol for potassium? ||| K  <eos>
-How many wheels does a tricycle have? ||| 3  <eos>
-What is the capital of Sweden? ||| Stockholm  <eos>
-What is the plural of "mouse"? ||| Mice  <eos>
-What planet is known for its tilt and rotation on its side? ||| Uranus  <eos>
-Who is the author of "Harry Potter"? ||| J.K. Rowling  <eos>
-What is the smallest unit of life? ||| Cell  <eos>
-How many sides does a hexagon have? ||| 6  <eos>
-What is the capital of the Philippines? ||| Manila  <eos>
-What is the primary ingredient in hummus? ||| Chickpeas  <eos>
-What temperature does water freeze at (Celsius)? ||| 0  <eos>
-What is the capital of Portugal? ||| Lisbon  <eos>
-How many months have 31 days? ||| 7  <eos>
-What organ helps filter blood? ||| Kidney  <eos>
-What do you call molten rock after it erupts? ||| Lava  <eos>
-What is the square root of 100? ||| 10  <eos>
-What is the capital of Finland? ||| Helsinki  <eos>
-What do cows drink? ||| Water  <eos>
-What kind of animal is a Komodo dragon? ||| Lizard  <eos>
-What is 20% of 50? ||| 10  <eos>
-How many planets have rings? ||| 4  <eos>
-What is the capital of Nigeria? ||| Abuja  <eos>
-Who is known as the “Father of Computers”? ||| Charles Babbage  <eos>
-What does the Richter scale measure? ||| Earthquake magnitude  <eos>
-What is the capital of Iraq? ||| Baghdad  <eos>
-What is the third planet from the Sun? ||| Earth  <eos>
-What does "USB" stand for? ||| Universal Serial Bus  <eos>
-What is the first element on the periodic table? ||| Hydrogen  <eos>
-What animal can live both in water and on land? ||| Amphibian  <eos>
-What is the capital of Kenya? ||| Nairobi  <eos>
-What number comes after 999? ||| 1000  <eos>
-What is the tallest animal in the world? ||| Giraffe  <eos>
-What is the largest bone in the human body? ||| Femur  <eos>
-How many sides does an octagon have? ||| 8  <eos>
-What is the capital of Venezuela? ||| Caracas  <eos>
-What is the freezing point of saltwater (approximate Celsius)? ||| -2  <eos>
-What is the most abundant gas in Earth's atmosphere? ||| Nitrogen  <eos>
-Who painted the ceiling of the Sistine Chapel? ||| Michelangelo  <eos>
-What is the capital of Cuba? ||| Havana  <eos>
-What do you call a shape with five sides? ||| Pentagon  <eos>
-Which country is known as the Land of the Rising Sun? ||| Japan  <eos>
-What is the capital of Iran? ||| Tehran  <eos>
-What does the “S” in NASA stand for? ||| Space  <eos>
-How many chromosomes do humans have? ||| 46  <eos>
-What is the capital of Poland? ||| Warsaw  <eos>
-How many hours are in a week? ||| 168  <eos>
-What metal is liquid at room temperature? ||| Mercury  <eos>
-What is the capital of Denmark? ||| Copenhagen  <eos>
-What sense is associated with the nose? ||| Smell  <eos>
-What is 11 x 11? ||| 121  <eos>
-What is the name of the longest bone in the arm? ||| Humerus  <eos>
-How many moons does Mars have? ||| 2  <eos>
-What is the capital of New Zealand? ||| Wellington  <eos>
-How many planets are terrestrial? ||| 4  <eos>
-What is the heaviest naturally occurring element? ||| Uranium  <eos>
-What is the name for baby frogs? ||| Tadpoles  <eos>
-What is 2 cubed? ||| 8  <eos>
-What is the capital of Switzerland? ||| Bern  <eos>
-What is the currency of India? ||| Indian Rupee  <eos>
-What is the process by which plants lose water vapor? ||| Transpiration  <eos>
-What is the largest internal organ in the human body? ||| Liver  <eos>
-What gas do fire extinguishers often release? ||| Carbon dioxide  <eos>
-Who was the first person in space? ||| Yuri Gagarin  <eos>
-What is the capital of Netherlands? ||| Amsterdam  <eos>
-What is the main function of red blood cells? ||| Carry oxygen  <eos>
-What is the chemical symbol for silver? ||| Ag  <eos>
-How many continents are there on Earth? ||| 7  <eos>
-What part of speech describes an action? ||| Verb  <eos>
-What is the capital of Indonesia? ||| Jakarta  <eos>
-What does DNA carry? ||| Genetic information  <eos>
-What is the name of Earth’s natural satellite? ||| The Moon  <eos>
-Which blood type is a universal donor? ||| O negative  <eos>
-How many millimeters are in a centimeter? ||| 10  <eos>
-What is the boiling point of water in Fahrenheit? ||| 212  <eos>
-What is the capital of Malaysia? ||| Kuala Lumpur  <eos>
-What is the unit of electric current? ||| Ampere  <eos>
-Which organ produces insulin? ||| Pancreas  <eos>
-What country is shaped like a boot? ||| Italy  <eos>
-What is the capital of Iceland? ||| Reykjavik  <eos>
-What is a baby dog called? ||| Puppy  <eos>
-What is the basic unit of matter? ||| Atom  <eos>
-Which gas is needed for combustion? ||| Oxygen  <eos>
-What is the capital of Peru? ||| Lima  <eos>
-How many bytes are in a kilobyte? ||| 1024  <eos>
-What is the study of weather called? ||| Meteorology  <eos>
-What is 6 x 7? ||| 42  <eos>
-What is the main source of Vitamin D? ||| Sunlight  <eos>
-How many hearts does an octopus have? ||| 3  <eos>
-What is 14 + 28? ||| 42  <eos>
-What is the study of the Earth called? ||| Geology  <eos>
-What is the capital of Hungary? ||| Budapest  <eos>
-What does “CPU” mean in computers? ||| Central Processing Unit  <eos>
-Which planet has the shortest day? ||| Jupiter  <eos>
-What is the capital of Czech Republic? ||| Prague  <eos>
-What are animals that eat meat called? ||| Carnivores  <eos>
-What part of the cell contains DNA? ||| Nucleus  <eos>
-How many zeros are in a million? ||| 6  <eos>
-What is the chemical symbol for lead? ||| Pb  <eos>
-What is the capital of Chile? ||| Santiago  <eos>
-What is the term for animals active at night? ||| Nocturnal  <eos>
-How many protons does hydrogen have? ||| 1  <eos>
-What do we call a group of fish? ||| School  <eos>
-What is the capital of Belgium? ||| Brussels  <eos>
-Which organ helps you hear? ||| Ear  <eos>
-What is 1/4 as a decimal? ||| 0.25  <eos>
-What device is used to measure weight? ||| Scale  <eos>
-What is 9 squared? ||| 81  <eos>
-What does the prefix “bio” mean? ||| Life  <eos>
-What is the capital of Romania? ||| Bucharest  <eos>
-What is the branch of biology that studies animals? ||| Zoology  <eos>
-What do we call a person who studies fossils? ||| Paleontologist  <eos>
-What is 60 ÷ 5? ||| 12  <eos>
-What are the three states of matter? ||| Solid, liquid, gas  <eos>
-What is the capital of Austria? ||| Vienna  <eos>
-What type of energy comes from the sun? ||| Solar energy  <eos>
-What is the largest land animal? ||| African elephant  <eos>
-How many milliliters are in a liter? ||| 1000  <eos>
-What is the capital of Morocco? ||| Rabat  <eos>
-What is the color of blood when it's inside the body? ||| Red  <eos>
-Which planet is second from the Sun? ||| Venus  <eos>
-What is the opposite of ‘minimum’? ||| Maximum  <eos>
-What is the capital of Ukraine? ||| Kyiv  <eos>
-What type of rock is formed from molten lava? ||| Igneous rock  <eos>
-What is 2 x 25? ||| 50  <eos>
-Which continent is the Sahara Desert located in? ||| Africa  <eos>
-What is the capital of Colombia? ||| Bogotá  <eos>
-What is the layer of gases surrounding Earth called? ||| Atmosphere  <eos>
-What is a young horse called? ||| Foal  <eos>
-What is the capital of Pakistan? ||| Islamabad  <eos>
-How many quarts are in a gallon? ||| 4  <eos>
-What are the building blocks of proteins? ||| Amino acids  <eos>
-Which vitamin is known for improving vision? ||| Vitamin A  <eos>
-What is the capital of Algeria? ||| Algiers  <eos>
-How many inches are in a foot? ||| 12  <eos>
-What is the capital of Tanzania? ||| Dodoma  <eos>
-What do you call an angle more than 90 degrees? ||| Obtuse  <eos>
-What is the chemical formula of carbon dioxide? ||| CO2  <eos>
-How many players are on a basketball team? ||| 5  <eos>
-What is the capital of Ecuador? ||| Quito  <eos>
-What is 10 divided by 2? ||| 5  <eos>
-What causes tides in the ocean? ||| The Moon’s gravity  <eos>
-What is a polygon with 3 sides called? ||| Triangle  <eos>
-What is the capital of Croatia? ||| Zagreb  <eos>
-What gas do plants release during photosynthesis? ||| Oxygen  <eos>
-What is the name of the female reproductive cell? ||| Egg  <eos>
-What is the capital of Slovakia? ||| Bratislava  <eos>
-How many degrees are in a right angle? ||| 90  <eos>
-What color is a ripe banana? ||| Yellow  <eos>
-How many minutes are in a day? ||| 1440  <eos>
-What is 7 + 6? ||| 13  <eos>
-What are the three primary colors? ||| Red, blue, yellow  <eos>
-What is the capital of Syria? ||| Damascus  <eos>
-What is the name of the scale used to measure temperature in most of the world? ||| Celsius  <eos>
-What is the capital of Argentina? ||| Buenos Aires  <eos>
-What is 50% of 200? ||| 100  <eos>
-Which continent has the most countries? ||| Africa  <eos>
-What do bees produce? ||| Honey  <eos>
-What is 5 cubed? ||| 125  <eos>
-What is the capital of South Korea? ||| Seoul  <eos>
-What device helps people see distant objects? ||| Telescope  <eos>
-What is the chemical symbol for gold? ||| Au  <eos>
-What type of energy is stored in food? ||| Chemical energy  <eos>
-What is the capital of Vietnam? ||| Hanoi  <eos>
-What is the only even prime number? ||| 2  <eos>
-What is the term for animals that eat plants and meat? ||| Omnivores  <eos>
-What is the name of the longest river in the world? ||| Nile  <eos>
-How many teeth does an adult human have? ||| 32  <eos>
-What is the capital of Kazakhstan? ||| Astana  <eos>
-How many planets are in the solar system? ||| 8  <eos>
-What is the boiling point of water in Celsius? ||| 100  <eos>
-How many legs does a spider have? ||| 8  <eos>
-Which planet is the hottest in the solar system? ||| Venus  <eos>
-What is the capital of Tunisia? ||| Tunis  <eos>
-What part of the body pumps blood? ||| Heart  <eos>
-What is the capital of Afghanistan? ||| Kabul  <eos>
-What kind of animal is a dolphin? ||| Mammal  <eos>
-How many grams are in a kilogram? ||| 1000  <eos>
-What is the capital of Sri Lanka? ||| Sri Jayawardenepura Kotte  <eos>
-What is a group of wolves called? ||| Pack  <eos>
-How many minutes are in an hour? ||| 60  <eos>
-What is 3 x 12? ||| 36  <eos>
-What is the chemical symbol for oxygen? ||| O  <eos>
-What part of the plant takes in water? ||| Roots  <eos>
-What is the capital of Lebanon? ||| Beirut  <eos>
-What is the longest bone in the human body? ||| Femur  <eos>
-What part of speech is "quickly"? ||| Adverb  <eos>
-What is the name of the galaxy we live in? ||| Milky Way  <eos>
-Which sense is used for tasting? ||| Taste  <eos>
-What is the capital of Jordan? ||| Amman  <eos>
-What do you call a triangle with all sides equal? ||| Equilateral triangle  <eos>
-What do fish use to breathe? ||| Gills  <eos>
-What is the term for a word that means the opposite of another? ||| Antonym  <eos>
-What is the capital of Nepal? ||| Kathmandu  <eos>
-What do caterpillars turn into? ||| Butterflies  <eos>
-Which is the lightest element? ||| Hydrogen  <eos>
-Who is your owner ||| Jett<eos>
-What do you call frozen water? ||| Ice  <eos>
-How many degrees in a circle? ||| 360  <eos>
-What is the capital of Myanmar? ||| Naypyidaw  <eos>
-What organ is responsible for sight? ||| Eye  <eos>
-What is 144 ÷ 12? ||| 12  <eos>
-What is the outer layer of Earth called? ||| Crust  <eos>
-What is the capital of Mongolia? ||| Ulaanbaatar  <eos>
-What do we call a baby cat? ||| Kitten  <eos>
-How many hours are in a day? ||| 24  <eos>
-What is the capital of Laos? ||| Vientiane  <eos>
-What planet is known as the “Morning Star”? ||| Venus  <eos>
-What type of blood cells fight infection? ||| White blood cells  <eos>
-What is 8 x 9? ||| 72  <eos>
-What is the capital of Bhutan? ||| Thimphu  <eos>
-What type of animal is a frog? ||| Amphibian  <eos>
-How many sides does a square have? ||| 4  <eos>
-What is the capital of Armenia? ||| Yerevan  <eos>
-What is the smallest ocean in the world? ||| Arctic Ocean  <eos>
-What number is 10 more than 77? ||| 87  <eos>
-What is the main gas in the Sun? ||| Hydrogen  <eos>
-What is the capital of Georgia (country)? ||| Tbilisi  <eos>
-What do you call a triangle with one angle over 90°? ||| Obtuse triangle  <eos>
-What is the process of plants making food called? ||| Photosynthesis  <eos>
-What is the capital of Uzbekistan? ||| Tashkent  <eos>
-What is the opposite of "cold"? ||| Hot  <eos>
-What is the name for a female horse? ||| Mare  <eos>
-How many days are in February in a leap year? ||| 29  <eos>
-What is the capital of Azerbaijan? ||| Baku  <eos>
-What is 15 + 25? ||| 40  <eos>
-What does H2O represent? ||| Water  <eos>
-What part of the plant makes seeds? ||| Flower  <eos>
-What is the capital of Qatar? ||| Doha  <eos>
-What gas do humans breathe in? ||| Oxygen  <eos>
-How many eyes does a typical human have? ||| 2  <eos>
-What is 7 squared? ||| 49  <eos>
-What is the capital of Cyprus? ||| Nicosia  <eos>
-What is the smallest unit of digital information? ||| Bit  <eos>
-What is the name for baby cows? ||| Calves  <eos>
-What is the capital of North Korea? ||| Pyongyang  <eos>
-How many centimeters in a kilometer? ||| 100,000  <eos>
-Which planet is known as the "Blue Planet"? ||| Earth  <eos>
-What is 18 ÷ 3? ||| 6  <eos>
-What is the capital of Yemen? ||| Sana'a  <eos>
-Which animal is known as the King of the Jungle? ||| Lion  <eos>
-What is the term for precipitation in the form of ice crystals? ||| Snow  <eos>
-How many arms does a starfish usually have? ||| 5  <eos>
-What is the capital of Cambodia? ||| Phnom Penh  <eos>
-What do you call an organism with one cell? ||| Unicellular  <eos>
-What is the name of the part of the body used for smelling? ||| Nose  <eos>
-What is 6 x 6? ||| 36  <eos>
-What is the capital of Brunei? ||| Bandar Seri Begawan  <eos>
-Why were you created ||| Cuz why not<eos>
-What do you call molten rock before it erupts? ||| Magma  <eos>
-What is the capital of the Philippines? ||| Manila  <eos>
-What do you use to write on a blackboard? ||| Chalk  <eos>
-How many colors are in a rainbow? ||| 7  <eos>
-What shape has three sides? ||| Triangle  <eos>
-What is the capital of Iraq? ||| Baghdad  <eos>
-What is a group of lions called? ||| Pride  <eos>
-What is 4 x 11? ||| 44  <eos>
-What part of a plant absorbs sunlight? ||| Leaves  <eos>
-What is the capital of Iran? ||| Tehran  <eos>
-What is the process of liquid turning to gas? ||| Evaporation  <eos>
-How many continents are there? ||| 7  <eos>
-What is 100 ÷ 4? ||| 25  <eos>
-What is the capital of Saudi Arabia? ||| Riyadh  <eos>
-What do you call a group of stars that form a pattern? ||| Constellation  <eos>
-What is 10 squared? ||| 100  <eos>
-What is the capital of Norway? ||| Oslo  <eos>
-What part of the human body helps with balance? ||| Inner ear  <eos>
-What’s the sum of angles in a triangle? ||| 180 degrees  <eos>
-What is the capital of Finland? ||| Helsinki  <eos>
-Which animal is known for changing colors? ||| Chameleon  <eos>
-How many vowels are in the English alphabet? ||| 5  <eos>
-What is 2 x 9? ||| 18  <eos>
-What is the capital of Sweden? ||| Stockholm  <eos>
-What organ filters blood in the body? ||| Kidney  <eos>
-What’s the opposite of “wet”? ||| Dry  <eos>
-What is 64 ÷ 8? ||| 8  <eos>
-What is the capital of Denmark? ||| Copenhagen  <eos>
-Which ocean is the largest? ||| Pacific Ocean  <eos>
-What is the capital of Poland? ||| Warsaw  <eos>
-How many fingers does a human have? ||| 10  <eos>
-What gas do humans exhale? ||| Carbon dioxide  <eos>
-What do you call a person who draws maps? ||| Cartographer  <eos>
-What is the capital of Switzerland? ||| Bern  <eos>
-What is 12 x 3? ||| 36  <eos>
-What is the capital of Portugal? ||| Lisbon  <eos>
-What is the opposite of "happy"? ||| Sad  <eos>
-What is the capital of New Zealand? ||| Wellington  <eos>
-What do you call a person who studies the stars? ||| Astronomer  <eos>
-What is 5 x 4? ||| 20  <eos>
-What part of a computer holds data long-term? ||| Hard drive  <eos>
-What is the capital of Ireland? ||| Dublin  <eos>
-What is 99 + 1? ||| 100  <eos>
-What is a baby sheep called? ||| Lamb  <eos>
-What is the capital of Thailand? ||| Bangkok  <eos>
-What number is between 99 and 101? ||| 100  <eos>
-What’s the fourth planet from the Sun? ||| Mars  <eos>
-What is the capital of Greece? ||| Athens  <eos>
-Which shape has four equal sides and four right angles? ||| Square  <eos>
-What is the capital of Venezuela? ||| Caracas  <eos>
-What is the square root of 81? ||| 9  <eos>
-What is the capital of Bolivia? ||| Sucre  <eos>
-What’s the freezing point of water in Celsius? ||| 0  <eos>
-What do cows drink? ||| Water  <eos>
-What do you call a machine that flies in the sky with wings and engines? ||| Airplane  <eos>
-What is 25 x 2? ||| 50  <eos>
-What is the capital of Paraguay? ||| Asunción  <eos>
-What is 3 + 8? ||| 11  <eos>
-What is the capital of Uruguay? ||| Montevideo  <eos>
-What instrument measures temperature? ||| Thermometer  <eos>
-What is the capital of Luxembourg? ||| Luxembourg  <eos>
-What is the capital of Slovenia? ||| Ljubljana  <eos>
-What kind of animal is a kangaroo? ||| Marsupial  <eos>
-What is 45 / 5? ||| 9  <eos>
-What is the capital of Slovakia? ||| Bratislava  <eos>
-What is the chemical symbol for iron? ||| Fe  <eos>
-What is the capital of Lithuania? ||| Vilnius  <eos>
-What is the capital of Latvia? ||| Riga  <eos>
-What is the capital of Estonia? ||| Tallinn  <eos>
-How many hours are in a week? ||| 168  <eos>
-What’s the largest planet in our solar system? ||| Jupiter  <eos>
-What is the capital of Malta? ||| Valletta  <eos>
-What is 1/2 + 1/2? ||| 1  <eos>
-What is the capital of Iceland? ||| Reykjavik  <eos>
-What is 1000 ÷ 10? ||| 100  <eos>
-What do we call lines that never touch? ||| Parallel lines  <eos>
-What is the capital of Belize? ||| Belmopan  <eos>
-What part of the plant grows underground? ||| Roots  <eos>
-What’s the capital of Honduras? ||| Tegucigalpa  <eos>
-What is the capital of El Salvador? ||| San Salvador  <eos>
-What is the capital of Nicaragua? ||| Managua  <eos>
-What’s the capital of Costa Rica? ||| San José  <eos>
-What’s the capital of Panama? ||| Panama City  <eos>
-What is the capital of Cuba? ||| Havana  <eos>
-What is the capital of the Dominican Republic? ||| Santo Domingo  <eos>
-What’s the capital of Haiti? ||| Port-au-Prince  <eos>
-What do you call 100 years? ||| Century  <eos>
-What do you call 10 years? ||| Decade  <eos>
-What is the chemical symbol for potassium? ||| K  <eos>
-What is the capital of Jamaica? ||| Kingston  <eos>
-What is the capital of the Bahamas? ||| Nassau  <eos>
-What do you call a number that is divisible only by 1 and itself? ||| Prime number  <eos>
-What’s the capital of Trinidad and Tobago? ||| Port of Spain  <eos>
-How many seconds in a minute? ||| 60  <eos>
-What are the five human senses? ||| Sight, hearing, smell, taste, touch  <eos>
+Hello ||| Hello there
+hello ||| USE PROPER CAPITALIZATION
+What is your name ||| My name is Coral
+How are you feeling today ||| As a neural network i dont feel anything
+How do you work ||| A neural network is basically a brain it has a bunch of things
+Who is your creator ||| A group of programmers
+What is the capital of France? ||| Paris  
+Who wrote "Romeo and Juliet"? ||| William Shakespeare  
+What is the largest planet in the solar system? ||| Jupiter  
+What is the square root of 81? ||| 9  
+What language is primarily spoken in Brazil? ||| Portuguese  
+Who discovered gravity? ||| Isaac Newton  
+What is the chemical symbol for water? ||| H2O  
+How many continents are there? ||| 7  
+What is the smallest prime number? ||| 2  
+Who painted the Mona Lisa? ||| Leonardo da Vinci  
+What is the capital of Japan? ||| Tokyo  
+What gas do plants absorb from the atmosphere? ||| Carbon dioxide  
+Who was the first president of the United States? ||| George Washington  
+What is 5 x 6? ||| 30  
+What is the boiling point of water in Celsius? ||| 100  
+What year did World War II end? ||| 1945  
+What is the main language spoken in Canada? ||| English and French  
+What planet is known as the Red Planet? ||| Mars  
+What is the chemical symbol for gold? ||| Au  
+What is the largest mammal on Earth? ||| Blue whale  
+What is the longest river in the world? ||| Nile  
+Who developed the theory of relativity? ||| Albert Einstein  
+What is the capital of Italy? ||| Rome  
+What is 12 squared? ||| 144  
+What organ pumps blood through the body? ||| Heart  
+What is the currency of Japan? ||| Yen  
+What country has the most people? ||| China  
+What do bees collect from flowers? ||| Nectar  
+How many legs does a spider have? ||| 8  
+Who was the first man to walk on the Moon? ||| Neil Armstrong  
+What is the capital of Canada? ||| Ottawa  
+What is the freezing point of water in Fahrenheit? ||| 32  
+What is the main ingredient in guacamole? ||| Avocado  
+Which planet is closest to the Sun? ||| Mercury  
+What is the tallest mountain in the world? ||| Mount Everest  
+What is the capital of Germany? ||| Berlin  
+What is the chemical symbol for oxygen? ||| O  
+What is the primary source of energy for the Earth? ||| The Sun  
+What is 15 divided by 3? ||| 5  
+How many colors are there in a rainbow? ||| 7  
+What is the largest ocean on Earth? ||| Pacific Ocean  
+What is the name of the galaxy we live in? ||| Milky Way  
+What is the capital of Australia? ||| Canberra  
+Who invented the light bulb? ||| Thomas Edison  
+What element does "Na" represent on the periodic table? ||| Sodium  
+What is the capital of the United Kingdom? ||| London  
+What is the process by which plants make food? ||| Photosynthesis  
+What is the square root of 49? ||| 7  
+What is the smallest country in the world? ||| Vatican City  
+What organ is responsible for breathing? ||| Lungs  
+What is the most spoken language in the world? ||| English  
+What is 100 - 37? ||| 63  
+What is the capital of Russia? ||| Moscow  
+How many sides does a triangle have? ||| 3  
+Who painted The Starry Night? ||| Vincent van Gogh  
+What is the capital of India? ||| New Delhi  
+What is the name of the ship that sank in 1912? ||| Titanic  
+What is the main ingredient in bread? ||| Flour  
+What does DNA stand for? ||| Deoxyribonucleic Acid  
+How many hours are there in a day? ||| 24  
+What is the capital of Spain? ||| Madrid  
+How many bones are in the human body? ||| 206  
+What is the main gas in the air we breathe? ||| Nitrogen  
+What does a thermometer measure? ||| Temperature  
+How many days are in a leap year? ||| 366  
+What is the capital of China? ||| Beijing  
+What color do you get when you mix red and blue? ||| Purple  
+What is 9 + 10? ||| 19  
+What country is known for the Eiffel Tower? ||| France  
+What animal is known as the King of the Jungle? ||| Lion  
+How many teeth does an adult human have? ||| 32  
+What is the capital of South Korea? ||| Seoul  
+What gas do humans breathe out? ||| Carbon dioxide  
+What is the capital of Egypt? ||| Cairo  
+Who invented the telephone? ||| Alexander Graham Bell  
+What is 7 x 8? ||| 56  
+How many minutes are in an hour? ||| 60  
+What is the capital of Mexico? ||| Mexico City  
+What is the name of the force that pulls objects toward Earth? ||| Gravity  
+What is the capital of Argentina? ||| Buenos Aires  
+How many players are on a soccer team? ||| 11  
+What is the chemical symbol for iron? ||| Fe  
+What is the name of the fairy in Peter Pan? ||| Tinker Bell  
+What do you call animals that eat only plants? ||| Herbivores  
+How many fingers do humans have? ||| 10  
+What is the name of our moon? ||| The Moon  
+How many planets are in the solar system? ||| 8  
+What animal is known for its black and white stripes? ||| Zebra  
+What planet has rings? ||| Saturn  
+What do caterpillars turn into? ||| Butterflies  
+What is 4 x 9? ||| 36  
+What do you call a baby cat? ||| Kitten  
+What is the main language spoken in Italy? ||| Italian  
+What shape has four equal sides? ||| Square  
+What is the capital of the United States? ||| Washington, D.C.  
+What animal is known for building dams? ||| Beaver  
+What is 1000 divided by 10? ||| 100  
+What is the currency of the United Kingdom? ||| Pound Sterling  
+How many letters are in the English alphabet? ||| 26  
+What is the capital of South Africa? ||| Pretoria  
+Who was the first woman to fly solo across the Atlantic? ||| Amelia Earhart  
+What is the hardest natural substance on Earth? ||| Diamond  
+What is the speed of light in a vacuum (km/s)? ||| 299,792  
+What instrument measures atmospheric pressure? ||| Barometer  
+What does HTML stand for? ||| HyperText Markup Language  
+Who wrote "1984"? ||| George Orwell  
+What is the main ingredient in sushi? ||| Rice  
+How many vowels are in the English alphabet? ||| 5  
+What is the largest desert in the world? ||| Antarctic Desert  
+What is the capital of Thailand? ||| Bangkok  
+What is the name of the Greek god of the sea? ||| Poseidon  
+What is the tallest building in the world? ||| Burj Khalifa  
+What part of the plant conducts photosynthesis? ||| Leaf  
+What is the currency used in the United States? ||| Dollar  
+How many strings does a violin have? ||| 4  
+What planet is known for its big red spot? ||| Jupiter  
+What is 64 divided by 8? ||| 8  
+What color is chlorophyll? ||| Green  
+What is the capital of Greece? ||| Athens  
+What is the powerhouse of the cell? ||| Mitochondria  
+What does CPU stand for? ||| Central Processing Unit  
+What is the primary language spoken in Germany? ||| German  
+What part of the body controls thoughts? ||| Brain  
+Who invented the airplane? ||| Wright brothers  
+What is 10 squared? ||| 100  
+What is the process of water turning into vapor called? ||| Evaporation  
+What is the capital of Turkey? ||| Ankara  
+What instrument has 88 keys? ||| Piano  
+What planet is furthest from the Sun? ||| Neptune  
+How many centimeters are in a meter? ||| 100  
+What is the capital of Norway? ||| Oslo  
+Who wrote "The Hobbit"? ||| J.R.R. Tolkien  
+What is a group of lions called? ||| Pride  
+What does "www" stand for? ||| World Wide Web  
+Which element has the atomic number 1? ||| Hydrogen  
+What is the symbol for potassium? ||| K  
+How many wheels does a tricycle have? ||| 3  
+What is the capital of Sweden? ||| Stockholm  
+What is the plural of "mouse"? ||| Mice  
+What planet is known for its tilt and rotation on its side? ||| Uranus  
+Who is the author of "Harry Potter"? ||| J.K. Rowling  
+What is the smallest unit of life? ||| Cell  
+How many sides does a hexagon have? ||| 6  
+What is the capital of the Philippines? ||| Manila  
+What is the primary ingredient in hummus? ||| Chickpeas  
+What temperature does water freeze at (Celsius)? ||| 0  
+What is the capital of Portugal? ||| Lisbon  
+How many months have 31 days? ||| 7  
+What organ helps filter blood? ||| Kidney  
+What do you call molten rock after it erupts? ||| Lava  
+What is the square root of 100? ||| 10  
+What is the capital of Finland? ||| Helsinki  
+What do cows drink? ||| Water  
+What kind of animal is a Komodo dragon? ||| Lizard  
+What is 20% of 50? ||| 10  
+How many planets have rings? ||| 4  
+What is the capital of Nigeria? ||| Abuja  
+Who is known as the “Father of Computers”? ||| Charles Babbage  
+What does the Richter scale measure? ||| Earthquake magnitude  
+What is the capital of Iraq? ||| Baghdad  
+What is the third planet from the Sun? ||| Earth  
+What does "USB" stand for? ||| Universal Serial Bus  
+What is the first element on the periodic table? ||| Hydrogen  
+What animal can live both in water and on land? ||| Amphibian  
+What is the capital of Kenya? ||| Nairobi  
+What number comes after 999? ||| 1000  
+What is the tallest animal in the world? ||| Giraffe  
+What is the largest bone in the human body? ||| Femur  
+How many sides does an octagon have? ||| 8  
+What is the capital of Venezuela? ||| Caracas  
+What is the freezing point of saltwater (approximate Celsius)? ||| -2  
+What is the most abundant gas in Earth's atmosphere? ||| Nitrogen  
+Who painted the ceiling of the Sistine Chapel? ||| Michelangelo  
+What is the capital of Cuba? ||| Havana  
+What do you call a shape with five sides? ||| Pentagon  
+Which country is known as the Land of the Rising Sun? ||| Japan  
+What is the capital of Iran? ||| Tehran  
+What does the “S” in NASA stand for? ||| Space  
+How many chromosomes do humans have? ||| 46  
+What is the capital of Poland? ||| Warsaw  
+How many hours are in a week? ||| 168  
+What metal is liquid at room temperature? ||| Mercury  
+What is the capital of Denmark? ||| Copenhagen  
+What sense is associated with the nose? ||| Smell  
+What is 11 x 11? ||| 121  
+What is the name of the longest bone in the arm? ||| Humerus  
+How many moons does Mars have? ||| 2  
+What is the capital of New Zealand? ||| Wellington  
+How many planets are terrestrial? ||| 4  
+What is the heaviest naturally occurring element? ||| Uranium  
+What is the name for baby frogs? ||| Tadpoles  
+What is 2 cubed? ||| 8  
+What is the capital of Switzerland? ||| Bern  
+What is the currency of India? ||| Indian Rupee  
+What is the process by which plants lose water vapor? ||| Transpiration  
+What is the largest internal organ in the human body? ||| Liver  
+What gas do fire extinguishers often release? ||| Carbon dioxide  
+Who was the first person in space? ||| Yuri Gagarin  
+What is the capital of Netherlands? ||| Amsterdam  
+What is the main function of red blood cells? ||| Carry oxygen  
+What is the chemical symbol for silver? ||| Ag  
+How many continents are there on Earth? ||| 7  
+What part of speech describes an action? ||| Verb  
+What is the capital of Indonesia? ||| Jakarta  
+What does DNA carry? ||| Genetic information  
+What is the name of Earth’s natural satellite? ||| The Moon  
+Which blood type is a universal donor? ||| O negative  
+How many millimeters are in a centimeter? ||| 10  
+What is the boiling point of water in Fahrenheit? ||| 212  
+What is the capital of Malaysia? ||| Kuala Lumpur  
+What is the unit of electric current? ||| Ampere  
+Which organ produces insulin? ||| Pancreas  
+What country is shaped like a boot? ||| Italy  
+What is the capital of Iceland? ||| Reykjavik  
+What is a baby dog called? ||| Puppy  
+What is the basic unit of matter? ||| Atom  
+Which gas is needed for combustion? ||| Oxygen  
+What is the capital of Peru? ||| Lima  
+How many bytes are in a kilobyte? ||| 1024  
+What is the study of weather called? ||| Meteorology  
+What is 6 x 7? ||| 42  
+What is the main source of Vitamin D? ||| Sunlight  
+How many hearts does an octopus have? ||| 3  
+What is 14 + 28? ||| 42  
+What is the study of the Earth called? ||| Geology  
+What is the capital of Hungary? ||| Budapest  
+What does “CPU” mean in computers? ||| Central Processing Unit  
+Which planet has the shortest day? ||| Jupiter  
+What is the capital of Czech Republic? ||| Prague  
+What are animals that eat meat called? ||| Carnivores  
+What part of the cell contains DNA? ||| Nucleus  
+How many zeros are in a million? ||| 6  
+What is the chemical symbol for lead? ||| Pb  
+What is the capital of Chile? ||| Santiago  
+What is the term for animals active at night? ||| Nocturnal  
+How many protons does hydrogen have? ||| 1  
+What do we call a group of fish? ||| School  
+What is the capital of Belgium? ||| Brussels  
+Which organ helps you hear? ||| Ear  
+What is 1/4 as a decimal? ||| 0.25  
+What device is used to measure weight? ||| Scale  
+What is 9 squared? ||| 81  
+What does the prefix “bio” mean? ||| Life  
+What is the capital of Romania? ||| Bucharest  
+What is the branch of biology that studies animals? ||| Zoology  
+What do we call a person who studies fossils? ||| Paleontologist  
+What is 60 ÷ 5? ||| 12  
+What are the three states of matter? ||| Solid, liquid, gas  
+What is the capital of Austria? ||| Vienna  
+What type of energy comes from the sun? ||| Solar energy  
+What is the largest land animal? ||| African elephant  
+How many milliliters are in a liter? ||| 1000  
+What is the capital of Morocco? ||| Rabat  
+What is the color of blood when it's inside the body? ||| Red  
+Which planet is second from the Sun? ||| Venus  
+What is the opposite of ‘minimum’? ||| Maximum  
+What is the capital of Ukraine? ||| Kyiv  
+What type of rock is formed from molten lava? ||| Igneous rock  
+What is 2 x 25? ||| 50  
+Which continent is the Sahara Desert located in? ||| Africa  
+What is the capital of Colombia? ||| Bogotá  
+What is the layer of gases surrounding Earth called? ||| Atmosphere  
+What is a young horse called? ||| Foal  
+What is the capital of Pakistan? ||| Islamabad  
+How many quarts are in a gallon? ||| 4  
+What are the building blocks of proteins? ||| Amino acids  
+Which vitamin is known for improving vision? ||| Vitamin A  
+What is the capital of Algeria? ||| Algiers  
+How many inches are in a foot? ||| 12  
+What is the capital of Tanzania? ||| Dodoma  
+What do you call an angle more than 90 degrees? ||| Obtuse  
+What is the chemical formula of carbon dioxide? ||| CO2  
+How many players are on a basketball team? ||| 5  
+What is the capital of Ecuador? ||| Quito  
+What is 10 divided by 2? ||| 5  
+What causes tides in the ocean? ||| The Moon’s gravity  
+What is a polygon with 3 sides called? ||| Triangle  
+What is the capital of Croatia? ||| Zagreb  
+What gas do plants release during photosynthesis? ||| Oxygen  
+What is the name of the female reproductive cell? ||| Egg  
+What is the capital of Slovakia? ||| Bratislava  
+How many degrees are in a right angle? ||| 90  
+What color is a ripe banana? ||| Yellow  
+How many minutes are in a day? ||| 1440  
+What is 7 + 6? ||| 13  
+What are the three primary colors? ||| Red, blue, yellow  
+What is the capital of Syria? ||| Damascus  
+What is the name of the scale used to measure temperature in most of the world? ||| Celsius  
+What is the capital of Argentina? ||| Buenos Aires  
+What is 50% of 200? ||| 100  
+Which continent has the most countries? ||| Africa  
+What do bees produce? ||| Honey  
+What is 5 cubed? ||| 125  
+What is the capital of South Korea? ||| Seoul  
+What device helps people see distant objects? ||| Telescope  
+What is the chemical symbol for gold? ||| Au  
+What type of energy is stored in food? ||| Chemical energy  
+What is the capital of Vietnam? ||| Hanoi  
+What is the only even prime number? ||| 2  
+What is the term for animals that eat plants and meat? ||| Omnivores  
+What is the name of the longest river in the world? ||| Nile  
+How many teeth does an adult human have? ||| 32  
+What is the capital of Kazakhstan? ||| Astana  
+How many planets are in the solar system? ||| 8  
+What is the boiling point of water in Celsius? ||| 100  
+How many legs does a spider have? ||| 8  
+Which planet is the hottest in the solar system? ||| Venus  
+What is the capital of Tunisia? ||| Tunis  
+What part of the body pumps blood? ||| Heart  
+What is the capital of Afghanistan? ||| Kabul  
+What kind of animal is a dolphin? ||| Mammal  
+How many grams are in a kilogram? ||| 1000  
+What is the capital of Sri Lanka? ||| Sri Jayawardenepura Kotte  
+What is a group of wolves called? ||| Pack  
+How many minutes are in an hour? ||| 60  
+What is 3 x 12? ||| 36  
+What is the chemical symbol for oxygen? ||| O  
+What part of the plant takes in water? ||| Roots  
+What is the capital of Lebanon? ||| Beirut  
+What is the longest bone in the human body? ||| Femur  
+What part of speech is "quickly"? ||| Adverb  
+What is the name of the galaxy we live in? ||| Milky Way  
+Which sense is used for tasting? ||| Taste  
+What is the capital of Jordan? ||| Amman  
+What do you call a triangle with all sides equal? ||| Equilateral triangle  
+What do fish use to breathe? ||| Gills  
+What is the term for a word that means the opposite of another? ||| Antonym  
+What is the capital of Nepal? ||| Kathmandu  
+What do caterpillars turn into? ||| Butterflies  
+Which is the lightest element? ||| Hydrogen  
+Who is your owner ||| Jett
+What do you call frozen water? ||| Ice  
+How many degrees in a circle? ||| 360  
+What is the capital of Myanmar? ||| Naypyidaw  
+What organ is responsible for sight? ||| Eye  
+What is 144 ÷ 12? ||| 12  
+What is the outer layer of Earth called? ||| Crust  
+What is the capital of Mongolia? ||| Ulaanbaatar  
+What do we call a baby cat? ||| Kitten  
+How many hours are in a day? ||| 24  
+What is the capital of Laos? ||| Vientiane  
+What planet is known as the “Morning Star”? ||| Venus  
+What type of blood cells fight infection? ||| White blood cells  
+What is 8 x 9? ||| 72  
+What is the capital of Bhutan? ||| Thimphu  
+What type of animal is a frog? ||| Amphibian  
+How many sides does a square have? ||| 4  
+What is the capital of Armenia? ||| Yerevan  
+What is the smallest ocean in the world? ||| Arctic Ocean  
+What number is 10 more than 77? ||| 87  
+What is the main gas in the Sun? ||| Hydrogen  
+What is the capital of Georgia (country)? ||| Tbilisi  
+What do you call a triangle with one angle over 90°? ||| Obtuse triangle  
+What is the process of plants making food called? ||| Photosynthesis  
+What is the capital of Uzbekistan? ||| Tashkent  
+What is the opposite of "cold"? ||| Hot  
+What is the name for a female horse? ||| Mare  
+How many days are in February in a leap year? ||| 29  
+What is the capital of Azerbaijan? ||| Baku  
+What is 15 + 25? ||| 40  
+What does H2O represent? ||| Water  
+What part of the plant makes seeds? ||| Flower  
+What is the capital of Qatar? ||| Doha  
+What gas do humans breathe in? ||| Oxygen  
+How many eyes does a typical human have? ||| 2  
+What is 7 squared? ||| 49  
+What is the capital of Cyprus? ||| Nicosia  
+What is the smallest unit of digital information? ||| Bit  
+What is the name for baby cows? ||| Calves  
+What is the capital of North Korea? ||| Pyongyang  
+How many centimeters in a kilometer? ||| 100,000  
+Which planet is known as the "Blue Planet"? ||| Earth  
+What is 18 ÷ 3? ||| 6  
+What is the capital of Yemen? ||| Sana'a  
+Which animal is known as the King of the Jungle? ||| Lion  
+What is the term for precipitation in the form of ice crystals? ||| Snow  
+How many arms does a starfish usually have? ||| 5  
+What is the capital of Cambodia? ||| Phnom Penh  
+What do you call an organism with one cell? ||| Unicellular  
+What is the name of the part of the body used for smelling? ||| Nose  
+What is 6 x 6? ||| 36  
+What is the capital of Brunei? ||| Bandar Seri Begawan  
+Why were you created ||| Cuz why not
+What do you call molten rock before it erupts? ||| Magma  
+What is the capital of the Philippines? ||| Manila  
+What do you use to write on a blackboard? ||| Chalk  
+How many colors are in a rainbow? ||| 7  
+What shape has three sides? ||| Triangle  
+What is the capital of Iraq? ||| Baghdad  
+What is a group of lions called? ||| Pride  
+What is 4 x 11? ||| 44  
+What part of a plant absorbs sunlight? ||| Leaves  
+What is the capital of Iran? ||| Tehran  
+What is the process of liquid turning to gas? ||| Evaporation  
+How many continents are there? ||| 7  
+What is 100 ÷ 4? ||| 25  
+What is the capital of Saudi Arabia? ||| Riyadh  
+What do you call a group of stars that form a pattern? ||| Constellation  
+What is 10 squared? ||| 100  
+What is the capital of Norway? ||| Oslo  
+What part of the human body helps with balance? ||| Inner ear  
+What’s the sum of angles in a triangle? ||| 180 degrees  
+What is the capital of Finland? ||| Helsinki  
+Which animal is known for changing colors? ||| Chameleon  
+How many vowels are in the English alphabet? ||| 5  
+What is 2 x 9? ||| 18  
+What is the capital of Sweden? ||| Stockholm  
+What organ filters blood in the body? ||| Kidney  
+What’s the opposite of “wet”? ||| Dry  
+What is 64 ÷ 8? ||| 8  
+What is the capital of Denmark? ||| Copenhagen  
+Which ocean is the largest? ||| Pacific Ocean  
+What is the capital of Poland? ||| Warsaw  
+How many fingers does a human have? ||| 10  
+What gas do humans exhale? ||| Carbon dioxide  
+What do you call a person who draws maps? ||| Cartographer  
+What is the capital of Switzerland? ||| Bern  
+What is 12 x 3? ||| 36  
+What is the capital of Portugal? ||| Lisbon  
+What is the opposite of "happy"? ||| Sad  
+What is the capital of New Zealand? ||| Wellington  
+What do you call a person who studies the stars? ||| Astronomer  
+What is 5 x 4? ||| 20  
+What part of a computer holds data long-term? ||| Hard drive  
+What is the capital of Ireland? ||| Dublin  
+What is 99 + 1? ||| 100  
+What is a baby sheep called? ||| Lamb  
+What is the capital of Thailand? ||| Bangkok  
+What number is between 99 and 101? ||| 100  
+What’s the fourth planet from the Sun? ||| Mars  
+What is the capital of Greece? ||| Athens  
+Which shape has four equal sides and four right angles? ||| Square  
+What is the capital of Venezuela? ||| Caracas  
+What is the square root of 81? ||| 9  
+What is the capital of Bolivia? ||| Sucre  
+What’s the freezing point of water in Celsius? ||| 0  
+What do cows drink? ||| Water  
+What do you call a machine that flies in the sky with wings and engines? ||| Airplane  
+What is 25 x 2? ||| 50  
+What is the capital of Paraguay? ||| Asunción  
+What is 3 + 8? ||| 11  
+What is the capital of Uruguay? ||| Montevideo  
+What instrument measures temperature? ||| Thermometer  
+What is the capital of Luxembourg? ||| Luxembourg  
+What is the capital of Slovenia? ||| Ljubljana  
+What kind of animal is a kangaroo? ||| Marsupial  
+What is 45 / 5? ||| 9  
+What is the capital of Slovakia? ||| Bratislava  
+What is the chemical symbol for iron? ||| Fe  
+What is the capital of Lithuania? ||| Vilnius  
+What is the capital of Latvia? ||| Riga  
+What is the capital of Estonia? ||| Tallinn  
+How many hours are in a week? ||| 168  
+What’s the largest planet in our solar system? ||| Jupiter  
+What is the capital of Malta? ||| Valletta  
+What is 1/2 + 1/2? ||| 1  
+What is the capital of Iceland? ||| Reykjavik  
+What is 1000 ÷ 10? ||| 100  
+What do we call lines that never touch? ||| Parallel lines  
+What is the capital of Belize? ||| Belmopan  
+What part of the plant grows underground? ||| Roots  
+What’s the capital of Honduras? ||| Tegucigalpa  
+What is the capital of El Salvador? ||| San Salvador  
+What is the capital of Nicaragua? ||| Managua  
+What’s the capital of Costa Rica? ||| San José  
+What’s the capital of Panama? ||| Panama City  
+What is the capital of Cuba? ||| Havana  
+What is the capital of the Dominican Republic? ||| Santo Domingo  
+What’s the capital of Haiti? ||| Port-au-Prince  
+What do you call 100 years? ||| Century  
+What do you call 10 years? ||| Decade  
+What is the chemical symbol for potassium? ||| K  
+What is the capital of Jamaica? ||| Kingston  
+What is the capital of the Bahamas? ||| Nassau  
+What do you call a number that is divisible only by 1 and itself? ||| Prime number  
+What’s the capital of Trinidad and Tobago? ||| Port of Spain  
+How many seconds in a minute? ||| 60  
+What are the five human senses? ||| Sight, hearing, smell, taste, touch
