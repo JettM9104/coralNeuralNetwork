@@ -9,11 +9,13 @@
 #include <ctime>
 #include <algorithm>
 
-const int EMBED_DIM = 32;
-const int HIDDEN_DIM = 64;
-const int EPOCHS = INFINITY;       // TRAINING MODE = INFINITY
+const int EMBED_DIM = 16;    // smaller embedding size
+const int HIDDEN_DIM = 32;   // smaller hidden layer
+const int EPOCHS = 100;      // limit training epochs
 const int BATCH_SIZE = 8;
 const float LEARNING_RATE = 0.05f;
+const size_t MAX_ANSWER_LEN = 8;   // limit answer length used for training
+const size_t MAX_QA_PAIRS = 200;   // limit total QA pairs loaded for training
 
 float randf() {
     return ((float)rand() / RAND_MAX) * 2 - 1;
@@ -147,7 +149,7 @@ void update_weights_batch(
             W1[i][j] -= LEARNING_RATE * dW1[i][j] * inv_batch;
 }
 
-int main(int argc, char** argv) {
+int main() {
     srand(time(0));
     std::mt19937 rng(time(0));
 
@@ -163,9 +165,8 @@ int main(int argc, char** argv) {
     std::map<int, std::string> idx2word;
     int id = 0;
 
-    // Special tokens
-    word2idx["<start>"] = id; idx2word[id++] = "<start>";
-    word2idx["<eos>"] = id; idx2word[id++] = "<eos>";
+    word2idx["<eos>"] = id;
+    idx2word[id++] = "<eos>";
 
     std::istringstream iss(text);
     std::string line;
@@ -178,8 +179,7 @@ int main(int argc, char** argv) {
 
         auto q_words = tokenize(question);
         auto a_words = tokenize(answer);
-        a_words.push_back("<eos>");           // Add end token
-        a_words.insert(a_words.begin(), "<start>"); // Add start token
+        a_words.push_back("<eos>");  // Keep <eos> to mark answer end
 
         qa_pairs.push_back({q_words, a_words});
 
@@ -189,112 +189,64 @@ int main(int argc, char** argv) {
             if (!word2idx.count(w)) { word2idx[w] = id; idx2word[id++] = w; }
     }
 
+    // Limit training data size for speed
+    if (qa_pairs.size() > MAX_QA_PAIRS)
+        qa_pairs.resize(MAX_QA_PAIRS);
+
     int vocab_size = word2idx.size();
+
     std::vector<std::vector<float>> W1(vocab_size, std::vector<float>(EMBED_DIM));
     std::vector<std::vector<float>> W2(EMBED_DIM, std::vector<float>(HIDDEN_DIM));
     std::vector<std::vector<float>> W3(HIDDEN_DIM, std::vector<float>(vocab_size));
 
-    std::ifstream check("W1.txt");
-    if (check.good()) {
-        std::cout << "Loading saved weights...\n";
+    // Initialize or load weights
+    std::ifstream w1f("W1.txt");
+    if (w1f.good()) {
         load_matrix("W1.txt", W1);
         load_matrix("W2.txt", W2);
         load_matrix("W3.txt", W3);
-    } else {
-        std::cout << "Initializing new weights...\n";
-        for (auto& row : W1) for (float& val : row) val = randf();
-        for (auto& row : W2) for (float& val : row) val = randf();
-        for (auto& row : W3) for (float& val : row) val = randf();
+    }
+    else {
+        for (auto& row : W1)
+            for (float& val : row)
+                val = randf() * 0.1f;
+        for (auto& row : W2)
+            for (float& val : row)
+                val = randf() * 0.1f;
+        for (auto& row : W3)
+            for (float& val : row)
+                val = randf() * 0.1f;
     }
 
-    for (int epoch = 0; epoch < 1000; ++epoch) {
-        std::shuffle(qa_pairs.begin(), qa_pairs.end(), rng);
-        for (size_t start = 0; start < qa_pairs.size(); start += BATCH_SIZE) {
-            std::vector<int> batch_x, batch_y;
-            size_t end = std::min(start + BATCH_SIZE, qa_pairs.size());
-            for (size_t idx = start; idx < end; ++idx) {
-                const auto& [question, answer] = qa_pairs[idx];
+    for (int epoch = 0; epoch < EPOCHS; ++epoch) {
+        std::vector<int> batch_x, batch_y;
 
-                // Feed question words as input (optionally)
-                for (auto& q : question) {
-                    if (word2idx.count(q)) {
-                        batch_x.push_back(word2idx["<start>"]);
-                        batch_y.push_back(word2idx[q]);
-                    }
-                }
+        for (const auto& [q, a] : qa_pairs) {
+            // Use only first MAX_ANSWER_LEN tokens for training answer
+            size_t len = std::min(a.size(), MAX_ANSWER_LEN);
 
-                // Then train on answer sequence
-                for (size_t i = 0; i + 1 < answer.size(); ++i) {
-                    batch_x.push_back(word2idx[answer[i]]);
-                    batch_y.push_back(word2idx[answer[i + 1]]);
+            for (size_t i = 0; i + 1 < len; ++i) {
+                batch_x.push_back(word2idx[a[i]]);
+                batch_y.push_back(word2idx[a[i + 1]]);
+
+                if (batch_x.size() >= BATCH_SIZE) {
+                    update_weights_batch(W1, W2, W3, batch_x, batch_y, vocab_size);
+                    batch_x.clear();
+                    batch_y.clear();
                 }
-            }
-            if (!batch_x.empty()) {
-                update_weights_batch(W1, W2, W3, batch_x, batch_y, vocab_size);
             }
         }
 
-        if (epoch % 15 == 0) {
-            save_matrix("W1.txt", W1);
-            save_matrix("W2.txt", W2);
-            save_matrix("W3.txt", W3);
-            std::cout << "Weights saved.\n";
+        if (!batch_x.empty()) {
+            update_weights_batch(W1, W2, W3, batch_x, batch_y, vocab_size);
         }
-        std::cout << "Epoch " << epoch + 1 << " completed.\n";
+
+        std::cout << "Epoch " << epoch + 1 << "/" << EPOCHS << " complete.\n";
     }
 
     save_matrix("W1.txt", W1);
     save_matrix("W2.txt", W2);
     save_matrix("W3.txt", W3);
-    std::cout << "Final weights saved.\n";
 
-    // Inference
-    std::string user_input;
-    std::cout << "\nAsk a question: ";
-    std::getline(std::cin, user_input);
-    auto q = tokenize(user_input);
-
-    // Average embedding of question words
-    std::vector<float> embed(EMBED_DIM, 0);
-    int count = 0;
-    for (auto& qw : q) {
-        if (word2idx.count(qw)) {
-            auto& vec = W1[word2idx[qw]];
-            for (int i = 0; i < EMBED_DIM; ++i)
-                embed[i] += vec[i];
-            count++;
-        }
-    }
-    if (count > 0) {
-        for (int i = 0; i < EMBED_DIM; ++i)
-            embed[i] /= count;
-    } else {
-        embed = W1[word2idx["<start>"]];
-    }
-
-    std::cout << "Answer: ";
-    int token = word2idx["<start>"];
-    for (int step = 0; step < 30; ++step) {
-        std::vector<float> hidden(HIDDEN_DIM, 0);
-        for (int j = 0; j < HIDDEN_DIM; ++j) {
-            for (int k = 0; k < EMBED_DIM; ++k)
-                hidden[j] += embed[k] * W2[k][j];
-            hidden[j] = sigmoid(hidden[j]);
-        }
-
-        std::vector<float> logits(vocab_size, 0);
-        for (int j = 0; j < vocab_size; ++j)
-            for (int k = 0; k < HIDDEN_DIM; ++k)
-                logits[j] += hidden[k] * W3[k][j];
-
-        auto probs = softmax(logits);
-        int idx = sample(probs);
-        std::string word = idx2word[idx];
-
-        if (word == "<eos>") break;
-        std::cout << word << " ";
-        embed = W1[idx];
-    }
-    std::cout << "\n";
     return 0;
 }
