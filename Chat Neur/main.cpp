@@ -11,8 +11,8 @@
 
 const int EMBED_DIM = 32;
 const int HIDDEN_DIM = 64;
-const int EPOCHS = INFINITY;       // TRAINING MODE = INFINTY
-const int BATCH_SIZE = 8;    
+const int EPOCHS = INFINITY;       // TRAINING MODE = INFINITY
+const int BATCH_SIZE = 8;
 const float LEARNING_RATE = 0.05f;
 
 float randf() {
@@ -80,12 +80,9 @@ void update_weights_batch(
     const std::vector<int>& batch_y,
     int vocab_size
 ) {
-    // Gradients accumulators initialized to zero
     std::vector<std::vector<float>> dW1(W1.size(), std::vector<float>(EMBED_DIM, 0));
     std::vector<std::vector<float>> dW2(EMBED_DIM, std::vector<float>(HIDDEN_DIM, 0));
     std::vector<std::vector<float>> dW3(HIDDEN_DIM, std::vector<float>(vocab_size, 0));
-
-    float batch_loss = 0;
 
     for (size_t sample_idx = 0; sample_idx < batch_x.size(); ++sample_idx) {
         int x = batch_x[sample_idx];
@@ -106,7 +103,6 @@ void update_weights_batch(
         }
 
         auto probs = softmax(logits);
-        batch_loss -= std::log(probs[y] + 1e-8f);
 
         std::vector<float> dlogits = probs;
         dlogits[y] -= 1;
@@ -120,7 +116,6 @@ void update_weights_batch(
         for (int j = 0; j < HIDDEN_DIM; ++j)
             dhidden_act[j] = dhidden[j] * dsigmoid(hidden[j]);
 
-        // Accumulate gradients
         for (int j = 0; j < HIDDEN_DIM; ++j)
             for (int k = 0; k < vocab_size; ++k)
                 dW3[j][k] += dlogits[k] * hidden[j];
@@ -137,7 +132,6 @@ void update_weights_batch(
         }
     }
 
-    // Update weights with averaged gradients
     float inv_batch = 1.0f / batch_x.size();
 
     for (size_t i = 0; i < W3.size(); ++i)
@@ -169,6 +163,10 @@ int main() {
     std::map<int, std::string> idx2word;
     int id = 0;
 
+    // Ensure <eos> token is included
+    word2idx["<eos>"] = id;
+    idx2word[id++] = "<eos>";
+
     std::istringstream iss(text);
     std::string line;
     while (std::getline(iss, line)) {
@@ -180,6 +178,8 @@ int main() {
 
         auto q_words = tokenize(question);
         auto a_words = tokenize(answer);
+        a_words.push_back("<eos>");  // Add end token to every answer
+
         qa_pairs.push_back({q_words, a_words});
 
         for (auto& w : q_words)
@@ -208,49 +208,40 @@ int main() {
     }
 
     for (int epoch = 0; epoch < EPOCHS; ++epoch) {
-        float epoch_loss = 0;
-        int count = 0;
-
-        std::shuffle(qa_pairs.begin(), qa_pairs.end(), rng);  // Shuffle data every epoch
-
-        // Create batches
+        std::shuffle(qa_pairs.begin(), qa_pairs.end(), rng);
         for (size_t start = 0; start < qa_pairs.size(); start += BATCH_SIZE) {
-            std::vector<int> batch_x;
-            std::vector<int> batch_y;
-
+            std::vector<int> batch_x, batch_y;
             size_t end = std::min(start + BATCH_SIZE, qa_pairs.size());
             for (size_t idx = start; idx < end; ++idx) {
                 const auto& [question, answer] = qa_pairs[idx];
-
-                // For simplicity, use first word of answer and next word as x and y
                 for (size_t i = 0; i + 1 < answer.size(); ++i) {
                     batch_x.push_back(word2idx[answer[i]]);
                     batch_y.push_back(word2idx[answer[i + 1]]);
                 }
             }
-
             if (!batch_x.empty() && !batch_y.empty()) {
                 update_weights_batch(W1, W2, W3, batch_x, batch_y, vocab_size);
             }
         }
+
         if (epoch % 15 == 0) {
             save_matrix("W1.txt", W1);
             save_matrix("W2.txt", W2);
             save_matrix("W3.txt", W3);
             std::cout << "Weights saved.\n";
         }
+
         std::cout << "Epoch " << epoch + 1 << " completed.\n";
     }
 
     save_matrix("W1.txt", W1);
     save_matrix("W2.txt", W2);
     save_matrix("W3.txt", W3);
-    std::cout << "Weights saved.\n";
+    std::cout << "Final weights saved.\n";
 
     // Inference
     std::string user_input;
     std::cout << "\nAsk a question: ";
-
     std::getline(std::cin, user_input);
     auto q = tokenize(user_input);
 
@@ -258,7 +249,7 @@ int main() {
     for (auto& qw : q) {
         if (word2idx.count(qw)) {
             embed = W1[word2idx[qw]];
-            break; // Use first known word's embedding
+            break;
         }
     }
 

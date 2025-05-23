@@ -4,6 +4,15 @@
 #include <string>
 
 int main() {
+    std::string enter;
+
+    std::cout << "To confirm, please type <eos";
+    std::cin >> enter;
+
+    if (enter != "<EOS>") {
+        std::cerr << "you prolly misclicked";
+        return -1;
+    }
     std::ifstream inputFile("text.txt");
     if (!inputFile) {
         std::cerr << "Error: Could not open text.txt for reading.\n";
