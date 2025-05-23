@@ -220,7 +220,10 @@ int main() {
 
             size_t end = std::min(start + BATCH_SIZE, qa_pairs.size());
             for (size_t idx = start; idx < end; ++idx) {
-                const auto& [question, answer] = qa_pairs[idx];
+                const auto& pair = qa_pairs[idx];
+                const auto& question = pair.first;
+                const auto& answer = pair.second;
+
 
                 // For simplicity, use first word of answer and next word as x and y
                 for (size_t i = 0; i + 1 < answer.size(); ++i) {
