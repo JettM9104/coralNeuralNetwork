@@ -261,11 +261,11 @@ int main() {
 
         std::cout << "Epoch " << epoch + 1 << " complete. Average Loss: " << (epoch_loss / batch_count) << std::endl;
 
-        if ((epoch + 1) % 10 == 0) {
+        if ((epoch + 1) % 10 == 0) [[unlikely]] {
             save_matrix("W1.txt", W1);
             save_matrix("W2.txt", W2);
             save_matrix("W3.txt", W3);
-            std::cout << "\n ------------------- SAVED FILES --------------------- \n";
+            std::cout << "\n ------------------- SAVED FILES --------------------- \n\n\n\n\n\n\n" << std::flush;
         }
     }
 
