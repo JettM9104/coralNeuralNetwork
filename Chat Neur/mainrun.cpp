@@ -247,44 +247,45 @@ int main() {
     save_matrix("W3.txt", W3);
     std::cout << "Weights saved.\n";
 
-    // Inference
-    std::string user_input;
-    std::cout << "\nAsk a question: ";
+    while (true) {
+        // Inference
+        std::string user_input;
+        std::cout << "\nAsk a question: ";
 
-    std::getline(std::cin, user_input);
-    auto q = tokenize(user_input);
+        std::getline(std::cin, user_input);
+        auto q = tokenize(user_input);
 
-    std::vector<float> embed;
-    for (auto& qw : q) {
-        if (word2idx.count(qw)) {
-            embed = W1[word2idx[qw]];
-            break; // Use first known word's embedding
+        std::vector<float> embed;
+        for (auto& qw : q) {
+            if (word2idx.count(qw)) {
+                embed = W1[word2idx[qw]];
+                break; // Use first known word's embedding
+            }
         }
+
+        std::cout << "Answer: ";
+        for (int step = 0; step < 30; ++step) {
+            std::vector<float> hidden(HIDDEN_DIM, 0);
+            for (int j = 0; j < HIDDEN_DIM; ++j) {
+                for (int k = 0; k < EMBED_DIM; ++k)
+                    hidden[j] += embed[k] * W2[k][j];
+                hidden[j] = sigmoid(hidden[j]);
+            }
+
+            std::vector<float> logits(vocab_size, 0);
+            for (int j = 0; j < vocab_size; ++j) {
+                for (int k = 0; k < HIDDEN_DIM; ++k)
+                    logits[j] += hidden[k] * W3[k][j];
+            }
+
+            auto probs = softmax(logits);
+            int idx = sample(probs);
+            std::string word = idx2word[idx];
+            std::cout << word << " ";
+            embed = W1[idx];
+            if (word == "<eos>" || word == ".") break;
+        }
+        std::cout << "\n";
     }
-
-    std::cout << "Answer: ";
-    for (int step = 0; step < 30; ++step) {
-        std::vector<float> hidden(HIDDEN_DIM, 0);
-        for (int j = 0; j < HIDDEN_DIM; ++j) {
-            for (int k = 0; k < EMBED_DIM; ++k)
-                hidden[j] += embed[k] * W2[k][j];
-            hidden[j] = sigmoid(hidden[j]);
-        }
-
-        std::vector<float> logits(vocab_size, 0);
-        for (int j = 0; j < vocab_size; ++j) {
-            for (int k = 0; k < HIDDEN_DIM; ++k)
-                logits[j] += hidden[k] * W3[k][j];
-        }
-
-        auto probs = softmax(logits);
-        int idx = sample(probs);
-        std::string word = idx2word[idx];
-        std::cout << word << " ";
-        embed = W1[idx];
-        if (word == "<eos>" || word == ".") break;
-    }
-    std::cout << "\n";
-
     return 0;
 }

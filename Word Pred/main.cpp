@@ -12,7 +12,7 @@
 // Hyperparameters
 const int EMBED_DIM = 32;
 const int HIDDEN_DIM = 64;
-const int EPOCHS = 10000;
+const int EPOCHS = 1;
 const float LEARNING_RATE = 0.05;
 
 // Utility: Random float in [-1, 1]
@@ -187,6 +187,13 @@ int main() {
         }
 
         std::cout << "Epoch " << epoch << ", Loss: " << loss / words.size() << "\n";
+        if (epoch % 10 == 0) {
+            // Save weights
+            save_matrix("W1.txt", W1);
+            save_matrix("W2.txt", W2);
+            save_matrix("W3.txt", W3);
+            std::cout << "Weights saved to W1.txt, W2.txt, W3.txt\n";
+        } 
     }
 
     // Save weights
@@ -194,45 +201,45 @@ int main() {
     save_matrix("W2.txt", W2);
     save_matrix("W3.txt", W3);
     std::cout << "Weights saved to W1.txt, W2.txt, W3.txt\n";
+    while (true) {
+        // Interactive generation
+        std::string start_word;
+        std::cout << "\nEnter a starting word: ";
+        std::cin >> start_word;
 
-    // Interactive generation
-    std::string start_word;
-    std::cout << "\nEnter a starting word: ";
-    std::cin >> start_word;
-
-    if (word2idx.find(start_word) == word2idx.end()) {
-        std::cerr << "Word not found in vocabulary.\n";
-        return 1;
-    }
-
-    int idx = word2idx[start_word];
-
-    std::cout << "Generated text:\n" << start_word << " ";
-
-    for (int i = 0; i < 50; ++i) {
-        std::vector<float> embed = W1[idx];
-
-        std::vector<float> hidden(HIDDEN_DIM);
-        for (int j = 0; j < HIDDEN_DIM; ++j) {
-            hidden[j] = 0;
-            for (int k = 0; k < EMBED_DIM; ++k)
-                hidden[j] += embed[k] * W2[k][j];
-            hidden[j] = sigmoid(hidden[j]);
+        if (word2idx.find(start_word) == word2idx.end()) {
+            std::cerr << "Word not found in vocabulary.\n";
+            return 1;
         }
 
-        std::vector<float> logits(vocab_size);
-        for (int j = 0; j < vocab_size; ++j) {
-            logits[j] = 0;
-            for (int k = 0; k < HIDDEN_DIM; ++k)
-                logits[j] += hidden[k] * W3[k][j];
+        int idx = word2idx[start_word];
+
+        std::cout << "Generated text:\n" << start_word << " ";
+
+        for (int i = 0; i < 50; ++i) {
+            std::vector<float> embed = W1[idx];
+
+            std::vector<float> hidden(HIDDEN_DIM);
+            for (int j = 0; j < HIDDEN_DIM; ++j) {
+                hidden[j] = 0;
+                for (int k = 0; k < EMBED_DIM; ++k)
+                    hidden[j] += embed[k] * W2[k][j];
+                hidden[j] = sigmoid(hidden[j]);
+            }
+
+            std::vector<float> logits(vocab_size);
+            for (int j = 0; j < vocab_size; ++j) {
+                logits[j] = 0;
+                for (int k = 0; k < HIDDEN_DIM; ++k)
+                    logits[j] += hidden[k] * W3[k][j];
+            }
+
+            std::vector<float> probs = softmax(logits);
+            idx = sample(probs);
+
+            std::cout << idx2word[idx] << " ";
         }
-
-        std::vector<float> probs = softmax(logits);
-        idx = sample(probs);
-
-        std::cout << idx2word[idx] << " ";
+        std::cout << "\n";
     }
-
-    std::cout << "\n";
     return 0;
 }

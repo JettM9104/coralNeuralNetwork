@@ -1,5 +1,5 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/jettmu/Documents/VSCode/Word AI/main'
+binary-path:     '/Users/jettmu/Documents/VSCode/Neural Network/Word Pred/main'
 relocations:     []
 ...
