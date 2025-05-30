@@ -10,7 +10,7 @@
 // Simple neural net parameters
 const int EMBED_DIM = 32;
 const int HIDDEN_DIM = 64;
-const int EPOCHS = 500;
+const int EPOCHS = 20;
 const float LEARNING_RATE = 0.05;
 
 // Random float in [-1, 1]
