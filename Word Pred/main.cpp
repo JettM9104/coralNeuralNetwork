@@ -12,7 +12,7 @@
 // Hyperparameters
 const int EMBED_DIM = 32;
 const int HIDDEN_DIM = 64;
-const int EPOCHS = 1'000'000;
+const int EPOCHS = 10000;
 const float LEARNING_RATE = 0.05;
 
 // Utility: Random float in [-1, 1]
