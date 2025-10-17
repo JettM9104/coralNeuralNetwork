@@ -1,0 +1,3 @@
+How are you? ||| I am good. <eos>
+What is your name? ||| My name is Fuh Cube Itch. <eos>
+How is the weather today? ||| I don't know, ask the weatherman! <eos>
